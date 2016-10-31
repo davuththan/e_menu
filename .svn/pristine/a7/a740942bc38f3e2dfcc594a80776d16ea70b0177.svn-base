@@ -1,0 +1,254 @@
+.top-menu{
+	background-color: #444;
+	width: 100%;
+	float: left;
+	color: white;
+	font-weight: bold;
+	font-size: 10px;
+	padding: 10px 10% 0px 10%;
+}
+
+.top-menu a {
+	color: white;
+}
+
+.top-menu ul li {
+	border-right: 1px solid;
+}
+
+.bar ul li {
+	/*border-right: 1px solid !important;*/
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.top-menu ul li:last-child, .bar ul li:last-child {
+	border: none;
+}
+
+.bar {
+	padding:35px 5px;
+	/*min-height: 100px;*/
+	background-color: white;
+	/*padding: 10px 10% 0px 10%;*/
+	float: left;
+	width: 100%;
+	color: black;
+	font-size: 12px;
+	margin-bottom: -70px;
+}
+
+.element-left {
+	padding: 5px;
+}
+
+
+/*=============Menu====================*/
+.menu {
+	float: left;
+	background-color: #dc2855;
+	width: 100%;
+	font-size: 16px;
+	margin-bottom: -30px;
+	position: relative;
+	text-align: center;
+	padding-top: 15px;
+	z-index: 1;
+	height: auto;
+}
+.menu ul li{
+	border: none;;
+}
+.menu ul li a{
+	color: white;
+}
+/*.menu ul li a:hover:active{
+	background-color: rgba(0,0,0,0.4);
+	padding: 14px;
+}*/
+
+/*=========Slide=============*/
+.slide-show {
+
+}
+.content_slide{
+	width: 100%;
+	min-height:300px;
+}
+.slide-show .carousel-caption{
+	left: 0;
+	width: 100%;
+	background-color: rgba(0,0,0,0.4);
+	padding-bottom: 50px;
+	height: 40%;
+}
+.slide-show .carousel-inner .item{
+	max-height: 500px;
+}
+
+/*=================Index=======================*/
+.title_our_service{
+	font-size:50px;
+	color:#d11a48;
+	/*font-weight: 900;*/
+}
+/*=================Service===================*/
+.line-row .hr{
+	background-color: #d51143;
+	height: 16px;
+	margin: 0 auto;
+	width: 100%;
+}
+.line-row .hr1{
+	background-color: #282828;
+	height: 20px;
+	margin: 0 auto;
+	width: 100%;
+}
+.paragraph{
+	font-size: 15px;
+}
+/*==============Contact==============*/
+button, html input[type="button"], input[type="reset"], input[type="submit"]{
+	-webkit-appearance: button;
+	cursor: pointer;
+	z-index: 10000;
+}
+.btn-lg{
+	padding: 10px 16px;
+	font-size: 16px;
+	line-height: 1.33;
+	width: 100%;
+}
+.btn-primary{
+	color: #ffffff;
+    background-color: #d61041;
+    border-color: gray;
+}
+.btn-primary:hover{
+	color: #ffffff;
+    background-color: #b3b3b3;
+    border-color: gray;
+}
+.btn-md{
+	padding: 10px 16px;
+	font-size: 18px;
+	line-height: 1.33;
+	width: 70%;
+}
+/*====================Event&News===================*/
+.wrapper_event_news{
+	background-color: #f7f7f7;
+	position: relative;
+	width: 100%;
+	font-size: 16px;
+	position: relative;
+	z-index: 1;
+	height: auto;
+}
+
+/*------------------------------------------*/
+/*	DETAIL
+/*------------------------------------------*/
+.wrap-col select{
+	width: 25%;
+	padding: 9px;
+	outline: none;
+	box-shadow: none;
+	margin-top: 5px;
+}
+
+.detail .carousel-indicators li {
+	display: inline-block;
+	margin: 1px;
+	width: 45px;
+	height: 5px;
+	border: none;
+	border-radius: 0px;
+	background: #939393;
+	text-indent: -999px;
+	cursor: pointer;
+}
+.detail .carousel-indicators{
+	color:gray;
+}
+.detail .carousel-indicators .active{
+	background:#d61041;
+}
+/*===============button read more==========*/
+.btn-sm{
+	padding: 10px 0px;
+	/*font-size: 14px;*/
+	line-height: 1.33;
+	width: 30%;
+}
+.btn-success{
+	color: #ffffff;
+    background-color: #d61041;
+    border-color: gray;
+}
+.btn-success:hover{
+	color: #ffffff;
+    background-color: #b3b3b3;
+    border-color: gray;
+}
+
+/*===============Foooter=================*/
+
+.delay{
+	visibility: visible; 
+	animation-delay: 0.4s; 
+	animation-name: fadeInUp;
+	animation-name: fadeInDown;
+	animation-name: fadeInLeft;
+	animation-name: fadeInRight;
+}
+.delay-sm{
+	visibility: visible; 
+	animation-delay: 0.4s; 
+	animation-name: fadeInLeft;
+}
+.delay-lg{
+	visibility: visible; 
+	animation-delay: 0.4s; 
+	animation-name: fadeInRight;
+}
+
+/*================media screen layout====================*/
+@media (min-width: 360px) and (max-width: 640px){
+	.container{
+		margin: 0 !important;
+		padding: 0 !important;
+		left: 0 !important;
+		right: 0 !important;
+	}
+	.title_our_service{
+		font-size:25px;
+		color:#d11a48;
+	}
+	.title_our_Progress{
+		font-size: 25px;
+	}
+}
+@media (min-width: 320px) and (max-width: 480px){
+	.container{
+		margin: 0 !important;
+		padding: 0 !important;
+		left: 0 !important;
+		right: 0 !important;
+	}
+	.title_our_service{
+		font-size:25px;
+		color:#d11a48;
+	}
+
+	.btn-md{
+		padding: 10px 16px;
+		font-size: 14px;
+		line-height: 1.33;
+		width: 70%;
+	}
+	.title_our_Progress{
+		font-size: 25px;
+	}
+}

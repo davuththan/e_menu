@@ -1,0 +1,1 @@
+function clearForm(f){for(i in f.elements){if(f.elements[i].type!='button'&&f.elements[i].type!='submit')f.elements[i].value='';}}function escapeAttr(txt){return txt.replace(/"/g,"&quot;");}

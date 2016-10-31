@@ -1,0 +1,22 @@
+RewriteEngine on
+Options -Indexes 
+#RewriteRule /sitemap.xml /sitemap.xml [L]
+
+#DirectoryIndex /admin
+#RewriteCond %{HTTP_HOST} ^/~bassakaair_new$ [NC,OR]
+#RewriteCond %{HTTP_HOST} ^http://bassakaair.com/~bassakaair_new$
+#RewriteCond %{REQUEST_URI} !public/
+#RewriteRule /(.*) /public/$1 [L]
+
+#RewriteRule ^(.*)$ public/$1 [L]
+
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteRule    ^$    public/    [L]
+    RewriteRule    (.*) public/$1    [L]
+</IfModule>
+
+
+
+
+

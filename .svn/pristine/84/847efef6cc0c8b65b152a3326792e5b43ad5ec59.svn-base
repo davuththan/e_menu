@@ -1,0 +1,214 @@
+
+   <div class="examples container">
+      <div class="col-xs-12 col-sm-12 col-md-12 sample" id="example1">
+         <div class="viewport">
+           <!-- LOADER (optional) -->
+            <div class="loader-overlay">
+                <div class="sk-cube-grid">
+                  <div class="sk-cube sk-cube1"></div>
+                  <div class="sk-cube sk-cube2"></div>
+                  <div class="sk-cube sk-cube3"></div>
+                  <div class="sk-cube sk-cube4"></div>
+                  <div class="sk-cube sk-cube5"></div>
+                  <div class="sk-cube sk-cube6"></div>
+                  <div class="sk-cube sk-cube7"></div>
+                  <div class="sk-cube sk-cube8"></div>
+                  <div class="sk-cube sk-cube9"></div>
+               </div>
+            </div>
+           <!-- end of LOADER (optional) -->
+           <input type="button" class="buttons prev" value="">
+           <div class="overview">
+             <ul>
+               <li style="position: relative;">
+                <span>
+                  <img title="Hello World" src="slick/imgs/image4.jpeg">
+                  <div style="position: absolute;bottom:0px;width:100%;height: 40px;background-color:rgba(255,255,255,0.5);">
+                    <center style="top:10px;">
+                      <dt style="position: absolute;bottom:0;top:10px;left:0;right:0;color: white;">SG Super Market</dt>
+                    </center>
+                  </div>
+                </span>
+               </li>
+               <li style="position: relative;">
+                <span>
+                  <img title="Hello World" src="slick/imgs/image2.jpeg">
+                  <div style="position: absolute;bottom:0px;width:100%;height: 40px;background-color:rgba(255,255,255,0.5);">
+                    <center style="top:10px;">
+                      <dt style="position: absolute;bottom:0;top:10px;left:0;right:0;color: white;">Dell Office</dt>
+                    </center>
+                  </div>
+                </span>
+               </li>
+                 <li style="position: relative;">
+                <span>
+                  <img title="Hello World" src="slick/imgs/image9.jpeg">
+                  <div style="position: absolute;bottom:0px;width:100%;height: 40px;background-color:rgba(255,255,255,0.5);">
+                    <center style="top:10px;">
+                      <dt style="position: absolute;bottom:0;top:10px;left:0;right:0;color: white;">Sony HQ</dt>
+                    </center>
+                  </div>
+                </span>
+               </li>
+                <li style="position: relative;">
+                <span>
+                  <img title="Hello World" src="slick/imgs/image10.jpeg">
+                  <div style="position: absolute;bottom:0px;width:100%;height: 40px;background-color:rgba(255,255,255,0.5);">
+                    <center style="top:10px;">
+                      <dt style="position: absolute;bottom:0;top:10px;left:0;right:0;color: white;">Building House</dt>
+                    </center>
+                  </div>
+                </span>
+               </li>
+                <li style="position: relative;">
+                <span>
+                  <img title="Hello World" src="slick/imgs/image8.jpeg">
+                  <div style="position: absolute;bottom:0px;width:100%;height: 40px;background-color:rgba(255,255,255,0.5);">
+                    <center style="top:10px;">
+                      <dt style="position: absolute;bottom:0;top:10px;left:0;right:0;color: white;">Hotel Building</dt>
+                    </center>
+                  </div>
+                </span>
+               </li>
+                <li style="position: relative;">
+                <span>
+                  <img title="Hello World" src="slick/imgs/image3.jpeg">
+                  <div style="position: absolute;bottom:0px;width:100%;height: 40px;background-color:rgba(255,255,255,0.5);">
+                    <center style="top:10px;">
+                      <dt style="position: absolute;bottom:0;top:10px;left:0;right:0;color: white;">Welcome To Cambodia</dt>
+                    </center>
+                  </div>
+                </span>
+               </li>
+                <li style="position: relative;">
+                <span>
+                  <img title="Hello World" src="slick/imgs/image1.jpeg">
+                  <div style="position: absolute;bottom:0px;width:100%;height: 40px;background-color:rgba(255,255,255,0.5);">
+                    <center style="top:10px;">
+                      <dt style="position: absolute;bottom:0;top:10px;left:0;right:0;color: white;">Welcome To Cambodia</dt>
+                    </center>
+                  </div>
+                </span>
+               </li>
+                <li style="position: relative;">
+                <span>
+                  <img title="Hello World" src="slick/imgs/image5.jpeg">
+                  <div style="position: absolute;bottom:0px;width:100%;height: 40px;background-color:rgba(255,255,255,0.5);">
+                    <center style="top:10px;">
+                      <dt style="position: absolute;bottom:0;top:10px;left:0;right:0;color: white;">Welcome To Cambodia</dt>
+                    </center>
+                  </div>
+                </span>
+               </li>
+                <li style="position: relative;">
+                <span>
+                  <img title="Hello World" src="slick/imgs/image6.jpeg">
+                  <div style="position: absolute;bottom:0px;width:100%;height: 40px;background-color:rgba(255,255,255,0.5);">
+                    <center style="top:10px;">
+                      <dt style="position: absolute;bottom:0;top:10px;left:0;right:0;color: white;">Welcome To Cambodia</dt>
+                    </center>
+                  </div>
+                </span>
+               </li>
+                <li style="position: relative;">
+                <span>
+                  <img title="Hello World" src="slick/imgs/image7.jpeg">
+                  <div style="position: absolute;bottom:0px;width:100%;height: 40px;background-color:rgba(255,255,255,0.5);">
+                    <center style="top:10px;">
+                      <dt style="position: absolute;bottom:0;top:10px;left:0;right:0;color: white;">Welcome To Cambodia</dt>
+                    </center>
+                  </div>
+                </span>
+               </li>
+             </ul>
+           </div>
+         <input type="button" class="buttons next" value="">
+      </div>
+   </div>
+       
+     
+    
+
+
+<style type="text/css">
+   
+
+/* EXAMPLES */
+#example1 {
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+}
+#example1 .viewport {
+  position: relative;
+  width: 100%;
+  height: 180px;  /* yu can define the height you want */
+  overflow: hidden;
+}
+
+#example1 .buttons {
+  display: block;
+  position: absolute;
+  line-height: 150px; /* in this case we use some height of viewport */
+  width: 30px;
+  top: 0; 
+  text-align: center;
+  z-index: 1;
+  background-color: #FFF;
+  border: 0;
+  font-family: 'fontawesome';
+}
+
+#example1 .buttons i {
+  font-size: 18px;
+  color: #000;
+  line-height: 150px;
+}
+
+#example1 .buttons:hover {
+  background-color: #F3F3F3;
+}
+
+#example1 .overview {
+  position: absolute;
+  padding: 0 35px;
+  margin: 0;
+  left: 0;
+  top: 0;
+}
+
+#example1 .overview ul {
+  clear: both;
+  list-style: none;
+  height: 150px;
+  padding: 0;
+  line-height: 0;
+}
+
+#example1 li {
+  display: inline-block;
+  float: left;
+  margin: 0 7px;
+  height: 150px;
+}
+
+#example1 li img {
+  width: auto;
+  height: 100%;
+}
+#example1 .overview ul li img:hover{
+  background-color: #F3F3F3;
+  cursor: pointer;
+  border:6px solid #e41c47;
+}
+#example1 .buttons.prev {
+  left: 0;     /* if you're using 'x' axis */
+  font-size: 40px;
+}
+#example1 .buttons.next {
+  right: 0;    /* if you're using 'x' axis */
+  font-size: 40px;
+}
+
+
+</style>

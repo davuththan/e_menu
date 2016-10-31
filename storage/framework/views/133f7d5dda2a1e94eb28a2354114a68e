@@ -1,0 +1,150 @@
+ 
+
+<?php $__env->startSection('content'); ?>
+<div class="wrapper_our_service">
+	<div class="contaidner">
+
+		<div class="col-sm-12 text-center padding-bottom-sm animated wow fadeInDown">
+			<h1 class="title_our_service">CARRER</h1>
+			<div class="line-row">
+				<div class="hr">&nbsp;</div>
+			</div>
+		</div>
+
+		<!-- front first -->
+		<div class="container">
+			
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 padding-bottom animated wow fadeInUp delay">	
+				<br>	
+				<div class="shadow">
+					<div class="wrapper_event_news">
+						<div class="col-lg-6">
+							<div class="row">
+								<img class="img-responsive" alt="logo" src="<?php echo e(url('images/landmark-event-venue-business-meetings.jpg')); ?>">
+							</div>			
+						</div>	
+
+					    <div class="col-lg-6 padding-sm">
+							<div class="col-lg-12 font-size-sm padding-bottom padding-top">
+								<center>KPS MEETING</center>	
+							</div>
+						
+							<div class="col-lg-12 font-size-sm">
+								<div class="control-group submit center padding-top carrer-button">
+									<a href="<?php echo e(url('carrer_detail')); ?>">
+					            		<input class="btn btn-sm btn-success" value="READ MORE" type="submit">
+									</a>
+					         	</div>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+					</div>	
+					
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 padding-bottom animated wow fadeInUp delay">	
+				<br>	
+				<div class="shadow">
+					<div class="wrapper_event_news">
+						<div class="col-lg-6">
+							<div class="row">
+								<img class="img-responsive" alt="logo" src="<?php echo e(url('images/landmark-event-venue-business-meetings.jpg')); ?>">
+							</div>			
+						</div>	
+
+					    <div class="col-lg-6 padding-sm">
+							<div class="col-lg-12 font-size-sm padding-bottom padding-top">
+								<center>KPS MEETING</center>	
+							</div>
+						
+							<div class="col-lg-12 font-size-sm">
+								<div class="control-group submit center padding-top carrer-button">
+									<a href="<?php echo e(url('carrer_detail')); ?>">
+					            		<input class="btn btn-sm btn-success" value="READ MORE" type="submit">
+									</a>
+					         	</div>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+					</div>	
+					
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 padding-bottom animated wow fadeInUp delay">	
+				<br>	
+				<div class="shadow">
+					<div class="wrapper_event_news">
+						<div class="col-lg-6">
+							<div class="row">
+								<img class="img-responsive" alt="logo" src="<?php echo e(url('images/landmark-event-venue-business-meetings.jpg')); ?>">
+							</div>			
+						</div>	
+
+					    <div class="col-lg-6 padding-sm">
+							<div class="col-lg-12 font-size-sm padding-bottom padding-top">
+								<center>KPS MEETING</center>	
+							</div>
+						
+							<div class="col-lg-12 font-size-sm">
+								<div class="control-group submit center padding-top carrer-button">
+									<a href="<?php echo e(url('carrer_detail')); ?>">
+					            		<input class="btn btn-sm btn-success" value="READ MORE" type="submit">
+									</a>
+					         	</div>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+					</div>	
+					
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 padding-bottom animated wow fadeInUp delay">	
+				<br>	
+				<div class="shadow">
+					<div class="wrapper_event_news">
+						<div class="col-lg-6">
+							<div class="row">
+								<img class="img-responsive" alt="logo" src="<?php echo e(url('images/landmark-event-venue-business-meetings.jpg')); ?>">
+							</div>			
+						</div>	
+
+					    <div class="col-lg-6 padding-sm">
+							<div class="col-lg-12 font-size-sm padding-bottom padding-top">
+								<center>KPS MEETING</center>	
+							</div>
+						
+							<div class="col-lg-12 font-size-sm">
+								<div class="control-group submit center padding-top carrer-button">
+									<a href="<?php echo e(url('carrer_detail')); ?>">
+					            		<input class="btn btn-sm btn-success" value="READ MORE" type="submit">
+									</a>
+					         	</div>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+					</div>	
+					
+				</div>
+			</div>
+			
+		</div>
+		<!-- end front first -->
+  
+	</div>
+</div>
+<?php $__env->stopSection(); ?>
+<style type="text/css">
+	.shadow{
+		box-shadow: 5px 5px 5px #888888;
+	}
+	.carrer-button .btn{
+		background-color: #555555 !important;
+	}
+	.carrer-button .btn:hover{
+		background-color: #d61041 !important;
+	}
+	.carrer-button .btn-sm{
+		width: 100%;
+	}
+</style>
+<?php echo $__env->make('fo.common.layout', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

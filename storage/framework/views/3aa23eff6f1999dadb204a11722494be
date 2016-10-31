@@ -1,0 +1,165 @@
+ 
+
+<?php $__env->startSection('content'); ?>
+
+<div class="box box-info">
+	<?php echo $__env->make('common.error', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+	 <!-- form start -->
+	<?php if( isset($entity) ): ?>
+		<?php echo Form::model($entity,['method' => 'PATCH','id'=>'form','class'=>'form-horizontal','files'=>true,'route'=>['admin.cmgr.candidate.update',$entity->id]]); ?>
+
+  	<?php else: ?>
+  		<?php echo Form::open(['url' => 'admin/cmgr/candidate','id'=>'form','class'=>'form-horizontal','files'=>true]); ?>
+
+  	<?php endif; ?>
+  <div class="box-header with-border">
+   <button type="submit"  class="btn btn-info pull-left" validation-submit="Form">Save</button> &nbsp;
+    <a href="<?php echo e(url('admin/cmgr/candidate')); ?>" class="btn btn-default">List</a>
+    <a href="<?php echo e(url('admin/cmgr/candidate')); ?>" class="btn btn-default pull-right">Back</a>
+  </div><!-- /.box-header -->
+    <div class="box-body">
+     	<!-- Custom Tabs -->
+<div class="nav-tabs-custom">
+	<ul class="nav nav-tabs">
+		<?php /**/ $first = true /**/ ?>
+		<?php foreach($languages as $language): ?>
+			<li class="<?php echo e($first ? 'active':''); ?>">
+				<a href="#tab_<?php echo e($language->id); ?>" data-toggle="tab"><img alt="flag" src="<?php echo e(url($language->image)); ?>"></a>
+			</li>
+			<?php /**/ $first = false /**/ ?>
+		<?php endforeach; ?>
+	</ul>
+	<div class="tab-content">
+		<?php /**/ $first = true /**/ ?>
+		<?php foreach($languages as $lang): ?>	
+		<div class="tab-pane <?php echo e($first ? 'active':''); ?>" id="tab_<?php echo e($lang->id); ?>">
+			<?php /**/ $first = false /**/ ?>
+			<?php if(isset($career_des)): ?>
+				<?php foreach($career_des as $des): ?>
+					<?php if($lang->id == $des->language_id): ?>
+						<div class="form-group">
+							<label class="col-sm-3 control-label">Name<span class="text-danger">*</span></label>
+							<div class="col-sm-6">
+								<input type="text" name="name[<?php echo e($lang->id); ?>]" value="<?php echo e($des->job_title); ?>" class="form-control" required="required"/>
+							</div>
+						</div>
+						 <div class="form-group">
+							<label class="col-sm-3 control-label">Email <span class="text-danger">*</span></label>
+							<div class="col-sm-3">
+								<input type="text" name="email[<?php echo e($lang->id); ?>]" value="<?php echo e($des->email); ?>" class="form-control"/>
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="col-sm-3 control-label">Location <span class="text-danger">*</span></label>
+							<div class="col-sm-6">
+								<input type="text" name="location[<?php echo e($lang->id); ?>]" value="<?php echo e($des->location); ?>" class="form-control"/>
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="col-sm-3 control-label">Description <span class="text-danger">*</span></label>
+							<div class="col-sm-6">
+								<input type="text" name="description[<?php echo e($lang->id); ?>]" value="<?php echo e($des->description); ?>" class="form-control"/>
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="col-sm-3 control-label">Meta Description <span class="text-danger">*</span></label>
+							<div class="col-sm-6">
+								<input type="text" name="meta_description[<?php echo e($lang->id); ?>]" value="<?php echo e($des->meta_description); ?>" class="form-control"/>
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="col-sm-3 control-label">Meta Keywords <span class="text-danger">*</span></label>
+							<div class="col-sm-6">
+								<input type="text" name="meta_keywords[<?php echo e($lang->id); ?>]" value="<?php echo e($des->meta_keywords); ?>" class="form-control"/>
+							</div>
+						</div> 
+					<?php endif; ?>
+				<?php endforeach; ?>
+				
+			<?php else: ?>
+				<div class="form-group">
+					<label class="col-sm-3 control-label">Name<span class="text-danger">*</span></label>
+					<div class="col-sm-6">
+						<input type="text" name="job_title[<?php echo e($lang->id); ?>]" class="form-control" required="required"/>
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="col-sm-3 control-label">E-mail <span class="text-danger">*</span></label>
+					<div class="col-sm-3">
+						<input type="text" name="position_available[<?php echo e($lang->id); ?>]"  class="form-control"/>
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="col-sm-3 control-label">Contact <span class="text-danger">*</span></label>
+					<div class="col-sm-6">
+						<input type="text" name="location[<?php echo e($lang->id); ?>]"  class="form-control"/>
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="col-sm-3 control-label">Attact File <span class="text-danger">*</span></label>
+					<div class="col-sm-6">
+						<input type="text" name="description[<?php echo e($lang->id); ?>]"  class="form-control"/>
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="col-sm-3 control-label">Address <span class="text-danger">*</span></label>
+					<div class="col-sm-6">
+						<input type="text" name="meta_description[<?php echo e($lang->id); ?>]"  class="form-control"/>
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="col-sm-3 control-label">Remark <span class="text-danger">*</span></label>
+					<div class="col-sm-6">
+						<input type="text" name="meta_keywords[<?php echo e($lang->id); ?>]"  class="form-control"/>
+					</div>
+				</div>
+			<?php endif; ?>
+		</div>
+		<!-- /.tab-pane -->
+		
+		<?php endforeach; ?>			
+					
+	</div>
+	<!-- /.tab-content -->
+</div>
+<!-- nav-tabs-custom -->
+
+    </div><!-- /.box-body -->
+    <div class="box-footer">
+    </div><!-- /.box-footer -->
+  <?php echo Form::close(); ?>
+
+</div><!-- /.box -->
+
+<script type="text/javascript">
+<!--
+	
+//-->
+	$(function(){
+		
+		$("#show_image").click(function(){
+			$("#image").change(function(event){
+				var fileName = $(this).val().split('\\').pop();
+				$("#image_url").val(fileName);
+				image_preview.src = URL.createObjectURL(event.target.files[0]);
+			});
+			$("#image").click();
+		});
+
+		$("#form").validate(
+				{ ignore: [] ,//validate all tab
+					invalidHandler: function(form, validator){
+			            var errors = validator.numberOfInvalids();
+			            var message = (errors == 1) ? "There is 1 error." : "There are errors.";
+			            $("#errors").html(message).show();
+			        }
+				} 
+		);
+		
+	});
+</script>
+
+ 
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('bo.common.layout', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

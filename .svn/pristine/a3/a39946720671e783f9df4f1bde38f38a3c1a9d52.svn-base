@@ -1,0 +1,237 @@
+@extends('fo.common.layout') 
+
+@section('content')
+<div class="wrapper_our_service">
+	<div class="contaidner">
+
+		<div class="col-sm-12 text-center padding-bottom-sm padding-top-sm wow fadeInDown animated">
+			<h1 class="title_our_service wow slideInLeft animated delay">PROJECT IN PROGRESS</h1>
+		</div>
+		<div class="container">
+			<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 padding-bottom-sm text-right">
+				<div class="wrap-col wow slideInRight animated delay">
+					<select>
+						<option>--ALL--</option>
+						<option>Honda</option>
+						<option>Infiniti</option>
+						<option>Jeep</option>
+						<option>Mercedes-Benz</option>
+						<option>Volvo</option>
+					</select>
+				</div>
+			</div>
+		</div>
+			<!-- front first -->
+			<div class="container">
+				<div class="col-sm-12">
+					<div class="line-row wow fadeInLeft animated">
+						<div class="hr">&nbsp;</div>
+					</div>
+				</div>
+					
+				</div>
+				<!-- front first -->
+				<div class="container">
+					<div class="col-lg-12 col-md-12 col-sm-12 padding-bottom wow fadeInDown animated delay">	
+						<br>	
+						<div class="wrapper_event_news">
+							<div class="col-lg-4 col-md-4">
+								<div class="row">
+									<img class="img-responsive" alt="logo" src="{{url('images/tiltup-construction-04-large.jpg')}}">
+								</div>	
+							</div>	
+
+						    <div class="col-lg-4 col-md-4">
+						    	<div class="col-lg-12 col-md-12 col-sm-12">
+						    		<center class="padding-sm">
+						    			<div class="font-size-sm" style="font-weight: 600;">KPS RESORT</div>
+						    		</center>
+						    	</div>
+								<br>
+								<div class="col-lg-offset-1">
+									<div class="col-lg-12 col-md-12 col-sm-12">
+										<p class="p">START DATE: 02/ 05 / 2016</p>
+									</div>
+									<div class="col-lg-12 col-md-12 col-sm-12">
+										<p class="p">AREA: 10,0000 SQM</p>
+									</div>
+									<div class="col-lg-12 col-md-12 col-sm-12">
+										<p class="p">lOCATION: KSP</p>
+									</div>
+								</div>
+								<div class="col-lg-12 col-md-12 col-sm-12 padding-sm">
+								<center>
+									<div class="control-group submit center">
+					            		<input class="btn btn-md btn-success" value="READ MORE" type="submit">
+						        	</div>
+									</center>
+								</div>
+							</div>
+							</div>
+
+							<div class="col-lg-4 col-md-4">
+								<div class="row">
+									<img class="img-responsive" style="width:100%" alt="logo" src="{{url('images/tiltup-construction-04-large.jpg')}}">
+								</div>	
+							</div>	
+
+							<div class="clearfix"></div>
+						</div>	
+					</div>
+				</div>
+				<!-- end front first -->	
+			</div>
+			<!-- end front first -->	
+
+			<!-- front first -->
+			<div class="container">
+				<div class="col-lg-12 col-md-12 col-sm-12 padding-bottom wow fadeInDown animated delay">	
+					
+					<div class="wrapper_event_news">
+						<div class="col-lg-3 col-md-6">
+					    	<div class="col-lg-12 col-md-12 col-sm-12">
+					    		<center class="padding-sm">
+					    			<div class="font-size-sm" style="font-weight: 600;">KPS RESORT</div>
+					    		</center>
+					    	</div>
+							<br>
+							<div class="col-lg-12 col-md-12 col-sm-12">
+								<p class="p">START DATE: 02/ 05 / 2016</p>
+							</div>
+							<div class="col-lg-12 col-md-12 col-sm-12">
+								<p class="p">AREA: 10,0000 SQM</p>
+							</div>
+							<div class="col-lg-12 col-md-12 col-sm-12">
+								<p class="p">lOCATION: KSP</p>
+							</div>
+							<div class="col-lg-12 col-md-12 col-sm-12 padding-sm">
+								<center>
+									<div class="control-group submit center">
+					            		<input class="btn btn-md btn-success" value="READ MORE" type="submit">
+						        	</div>
+								</center>
+							</div>
+						</div>
+			
+						<div class="col-lg-9 col-md-6 pull-right">
+							<div class="row">
+								<img class="img-responsive" style="width:1920px;height: auto" alt="logo" src="{{url('images/Home-5.jpg')}}" >
+							</div>
+						</div>	
+						<div class="clearfix"></div>
+					</div>	
+				</div>
+			</div>
+			<!-- end front first -->
+
+			<!-- front first -->
+				<div class="container">
+				<div class="col-sm-12">
+					<div class="line-row wow fadeInLeft animated">
+						<div class="hr">&nbsp;</div>
+					</div>
+				</div>
+					
+				</div>
+				<!-- front first -->
+				<div class="container">
+					<div class="col-lg-12 col-md-12 col-sm-12 padding-bottom wow fadeInDown animated delay">	
+						<br>	
+						<div class="wrapper_event_news">
+							<div class="col-lg-4 col-md-4">
+								<div class="row">
+									<img class="img-responsive" alt="logo" src="{{url('images/tiltup-construction-04-large.jpg')}}">
+								</div>	
+							</div>	
+
+						    <div class="col-lg-4 col-md-4">
+						    	<div class="col-lg-12 col-md-12 col-sm-12">
+						    		<center class="padding-sm">
+						    			<div class="font-size-sm" style="font-weight: 600;">KPS RESORT</div>
+						    		</center>
+						    	</div>
+								<br>
+								<div class="col-lg-offset-1">
+									<div class="col-lg-12 col-md-12 col-sm-12">
+										<p class="p">START DATE: 02/ 05 / 2016</p>
+									</div>
+									<div class="col-lg-12 col-md-12 col-sm-12">
+										<p class="p">AREA: 10,0000 SQM</p>
+									</div>
+									<div class="col-lg-12 col-md-12 col-sm-12">
+										<p class="p">lOCATION: KSP</p>
+									</div>
+								</div>
+								<div class="col-lg-12 col-md-12 col-sm-12 padding-sm">
+									<center>
+										<div class="control-group submit center">
+						            		<input class="btn btn-md btn-success" value="READ MORE" type="submit">
+							        	</div>
+									</center>
+								</div>
+							</div>
+
+							<div class="col-lg-4 col-md-4">
+								<div class="row">
+									<img class="img-responsive" style="width:100%" alt="logo" src="{{url('images/tiltup-construction-04-large.jpg')}}">
+								</div>	
+							</div>	
+
+							<div class="clearfix"></div>
+						</div>	
+					</div>
+				</div>
+				<!-- end front first -->	
+			</div>	
+			<!-- end front first -->	
+
+			<!-- front first -->
+			<div class="container">
+				<div class="col-lg-12 col-md-12 col-sm-12 padding-bottom wow fadeInDown animated delay">	
+					
+					<div class="wrapper_event_news">
+						<div class="col-lg-9 col-md-6">
+							<div class="row">
+								<img class="img-responsive" style="width:1920px;height: auto" alt="logo" src="{{url('images/Home-5.jpg')}}" >
+							</div>
+						</div>	
+
+						<div class="col-lg-3 col-md-6">
+					    	<div class="col-lg-12 col-md-12 col-sm-12">
+					    		<center class="padding-sm">
+					    			<div class="font-size-sm" style="font-weight: 600;">KPS RESORT</div>
+					    		</center>
+					    	</div>
+							<br>
+							<div class="col-lg-12 col-md-12 col-sm-12">
+								<p class="p">START DATE: 02/ 05 / 2016</p>
+							</div>
+							<div class="col-lg-12 col-md-12 col-sm-12">
+								<p class="p">AREA: 10,0000 SQM</p>
+							</div>
+							<div class="col-lg-12 col-md-12 col-sm-12">
+								<p class="p">lOCATION: KSP</p>
+							</div>
+							<div class="col-lg-12 col-md-12 col-sm-12 padding-sm">
+								<center>
+									<div class="control-group submit center">
+					            		<input class="btn btn-md btn-success" value="READ MORE" type="submit">
+						        	</div>
+								</center>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+					</div>	
+				</div>
+			</div>
+			<!-- end front first -->	
+		</div>
+	</div>
+</div>
+@endsection
+<style type="text/css">
+	.p{font-size: 14px;}
+	.btn-danger{
+	
+	}
+</style>

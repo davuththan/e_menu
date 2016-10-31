@@ -1,0 +1,93 @@
+<!-- Custom Tabs -->
+<div class="nav-tabs-custom">
+	<ul class="nav nav-tabs">
+		<?php /**/ $first = true /**/ ?>
+		<?php foreach($languages as $language): ?>
+			<li class="<?php echo e($first ? 'active':''); ?>">
+				<a href="#tab_<?php echo e($language->id); ?>" data-toggle="tab"><img alt="flag" src="<?php echo e(url($language->image)); ?>"></a>
+			</li>
+			<?php /**/ $first = false /**/ ?>
+		<?php endforeach; ?>
+	</ul>
+	<div class="tab-content">
+		<?php /**/ $first = true /**/ ?>
+		<?php foreach($languages as $lang): ?>	
+		<div class="tab-pane <?php echo e($first ? 'active':''); ?>" id="tab_<?php echo e($lang->id); ?>">
+			<?php /**/ $first = false /**/ ?>
+			<?php if(isset($slide_des)): ?>
+				<?php foreach($slide_des as $des): ?>
+					<?php if($lang->id == $des->language_id): ?>
+						<div class="form-group">
+							<label class="col-sm-3 control-label">Title <span class="text-danger">*</span></label>
+							<div class="col-sm-6">
+								<input type="text" name="title[<?php echo e($lang->id); ?>]" value="<?php echo e($des->title); ?>" class="form-control"/>
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="col-sm-3 control-label">Sub Title <span class="text-danger">*</span></label>
+							<div class="col-sm-6">
+								<input type="text" name="sub_title[<?php echo e($lang->id); ?>]" value="<?php echo e($des->sub_title); ?>" class="form-control"/>
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="col-sm-3 control-label">Description <span class="text-danger">*</span></label>
+							<div class="col-sm-6">
+								<textarea rows="6" style="max-width: 100%;" name="description[<?php echo e($lang->id); ?>]" class="form-control ckeditor"><?php echo e($des->description); ?></textarea>
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="col-sm-3 control-label">Meta Description <span class="text-danger">*</span></label>
+							<div class="col-sm-6">
+								<textarea rows="6" style="max-width: 100%;" name="meta_description[<?php echo e($lang->id); ?>]" class="form-control"><?php echo e($des->meta_description); ?></textarea>
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="col-sm-3 control-label">Meta Keywords <span class="text-danger">*</span></label>
+							<div class="col-sm-6">
+								<textarea rows="6" style="max-width: 100%;" name="meta_keywords[<?php echo e($lang->id); ?>]" class="form-control"><?php echo e($des->meta_keywords); ?></textarea>
+							</div>
+						</div> 
+					<?php endif; ?>
+				<?php endforeach; ?>
+				
+			<?php else: ?>
+				<div class="form-group">
+					<label class="col-sm-3 control-label">Title <span class="text-danger">*</span></label>
+					<div class="col-sm-6">
+						<input type="text" name="title[<?php echo e($lang->id); ?>]"  class="form-control"/>
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="col-sm-3 control-label">Sub Title <span class="text-danger">*</span></label>
+					<div class="col-sm-6">
+						<input type="text" name="sub_title[<?php echo e($lang->id); ?>]"  class="form-control"/>
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="col-sm-3 control-label">Description <span class="text-danger">*</span></label>
+					<div class="col-sm-6">
+						<textarea name="description[<?php echo e($lang->id); ?>]"  class="form-control ckeditor"/></textarea> 
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="col-sm-3 control-label">Meta Description <span class="text-danger">*</span></label>
+					<div class="col-sm-6">
+						<textarea rows="6" style="max-width: 100%;" name="meta_description[<?php echo e($lang->id); ?>]"  class="form-control"></textarea>
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="col-sm-3 control-label">Meta Keywords <span class="text-danger">*</span></label>
+					<div class="col-sm-6">
+						<textarea rows="6" style="max-width: 100%;" name="meta_keywords[<?php echo e($lang->id); ?>]"  class="form-control"></textarea>
+					</div>	
+				</div>
+			<?php endif; ?>
+		</div>
+		<!-- /.tab-pane -->
+		
+		<?php endforeach; ?>			
+					
+	</div>
+	<!-- /.tab-content -->
+</div>
+<!-- nav-tabs-custom -->

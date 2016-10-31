@@ -1,0 +1,165 @@
+@extends('fo.common.layout') 
+
+@section('content')
+<div class="wrapper_our_service">
+	<div class="col-sm-12 text-center padding-bottom-sm padding-top-sm animated wow fadeInUp delay">
+		<h1 class="title_our_service">OUR VISION & MISSION</h1>
+		<div class="line-row  wow fadeInLeft animated delay data-wow-delay="0.4s"">
+				<div class="hr">&nbsp;</div>
+		</div>
+	</div>
+	
+	<div class="container">
+		<center>
+		  <ul class="tabs tabs_default">
+		    <li class="active">
+		    	<a data-toggle="tab" href="#home">Our Vission</a>
+		    </li>
+		    <li>
+		    	<a data-toggle="tab" href="#menu">Our Vission</a>
+		    </li>
+		  </ul>
+		</center>
+
+	  	<div class="tab-content">
+		   	<div id="home" class="tab-pane fade in active">
+		   		<div class="row">
+					<div class="our_service padding-bottom-lg animated wow fadeInUp delay">	
+							<div class="col-lg-12 padding-top-sm">
+								<div class="font-size-sm bold">
+									OUR MISSION1
+								</div><br>
+							</div>
+							<div class="col-lg-12">
+								<p class="paragraph">
+									Our mission is to provide the hightest quality of services for every project we undertake. We strive to achieve this through:
+								</p>
+							</div>
+							<div class="col-lg-12">
+								<p class="paragraph" style="padding-left: 20px;">
+									<span>
+										-Ensuring open communication and interaction with all levels of personal.
+									</span>
+									<br>
+									-Supporting our client by maintaining complete transparency.
+									<br>
+									-Consistently improving our service quality by investing in the right people and equireqment.
+								</p>
+							</div>
+							<div class="col-sm-12">
+								<p class="paragraph">
+									Civil & Structural services are the core competency of ZAC Resources Co.,Ltd. Over the years, our personal have grown from strength th strength and built extensive capabilities for all types of industrial civil and structural requirements. We specialize in Earth Moving, Concrete Works, Steel Structures and Major Civil Construction works.
+								</p>
+							</div>
+							<div class="col-lg-12">
+								<p class="paragraph">
+									Our mission is to provide the hightest quality of services for every project we undertake. We strive to achieve this through:
+								</p>
+							</div>
+							<div class="col-lg-6 col-md-6 col-sm-6 wow fadeInUp animated delay-sm padding-bottom">
+									<img class="img-responsive"  alt="logo" src="{{url('images/construction_helmet_arm_80718_1920x1080.jpg')}}">
+							</div>
+							<div class="col-lg-6 col-md-6 col-sm-6 wow fadeInUp animated delay-sm padding-bottom">
+									<img class="img-responsive"  alt="logo" src="{{url('images/construction_helmet_arm_80718_1920x1080.jpg')}}">
+							</div>
+					</div>
+		   		</div>
+			</div>
+
+		    <div id="menu" class="tab-pane fade">
+		    	<div class="row">
+					<div class="our_service padding-bottom-lg animated wow fadeInUp delay">	
+								<div class="col-lg-12 padding-top-sm">
+									<div class="font-size-sm bold">OUR MISSION</div><br>
+								</div>
+								<div class="col-lg-12">
+									<p class="paragraph">
+										Our mission is to provide the hightest quality of services for every project we undertake. We strive to achieve this through:
+									</p>
+								</div>
+								<div class="col-lg-12">
+									<p class="paragraph" style="padding-left: 20px;">
+										<span>
+											-Ensuring open communication and interaction with all levels of personal.
+										</span>
+										<br>
+										-Supporting our client by maintaining complete transparency.
+										<br>
+										-Consistently improving our service quality by investing in the right people and equireqment.
+									</p>
+								</div>
+								<div class="col-sm-12">
+									<p class="paragraph">
+										Civil & Structural services are the core competency of ZAC Resources Co.,Ltd. Over the years, our personal have grown from strength th strength and built extensive capabilities for all types of industrial civil and structural requirements. We specialize in Earth Moving, Concrete Works, Steel Structures and Major Civil Construction works.
+									</p>
+								</div>
+								<div class="col-lg-12">
+									<p class="paragraph">
+										Our mission is to provide the hightest quality of services for every project we undertake. We strive to achieve this through:
+									</p>
+								</div>
+								<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow fadeInRight animated delay-sm padding-bottom">
+										<img class="img-responsive"  alt="logo" src="{{url('images/construction_helmet_arm_80718_1920x1080.jpg')}}">	
+								</div>
+								<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow fadeInRight animated delay-sm padding-bottom">
+										<img class="img-responsive"  alt="logo" src="{{url('images/construction_helmet_arm_80718_1920x1080.jpg')}}">
+								</div>
+					</div>
+		    		
+		    	</div>
+		    </div>
+	  	</div>    
+  	</div>
+</div>
+@endsection
+<style type="text/css">
+/**TABS**/
+
+.tabs{
+	margin-top: 10px;
+}
+
+.tabs ul.horizontal {
+	list-style: none outside none;
+	margin: 0;
+}
+
+.tabs li {
+	background: gray;
+	border-bottom: 4px solid #E5E5E5;
+	margin: 0 20px 0 0;
+	display: inline-block;
+}
+
+.tabs a {
+	color: #ccc;
+	display: block;
+	font-weight: 300;
+	/*padding: 10px 20%;*/
+	text-decoration: none;
+	padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.tabs li:hover {
+	background: #d51143;
+	border-bottom: 4px solid #68a697;
+}
+
+.tabs li:hover a {
+	color: white;
+}
+
+.tabs .active {
+	background: #d51143 !important;
+	border-bottom: 4px solid gray !important;
+}
+.tab-content .active{
+	background: white !important;
+}
+.active a {
+	color: white !important;
+}
+</style>

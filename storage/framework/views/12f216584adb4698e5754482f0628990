@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Zac Constructor</title>
+<!-- Tell the browser to be responsive to screen width -->
+<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"name="viewport">
+<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+	<?php echo $__env->make('fo.common.style', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+</head>
+	<body>
+		
+		<!-- top menu -->
+			<?php echo $__env->make('fo.common.topmenu', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+		<!-- /top menu -->
+
+		<!-- bar -->
+			<?php echo $__env->make('fo.common.header', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+		<!-- /end bar -->
+		
+		<!-- slide show -->
+			<?php echo $__env->make('fo.common.slideshow', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>   
+		<!-- /end slide show -->
+		
+		<div class="clearfix"></div>
+		<!-- content -->
+			<?php echo $__env->yieldContent('content'); ?>	
+		<!-- end content -->
+		 <div class="clearfix"></div>
+		<!-- footer -->
+		<?php echo $__env->make('fo.common.footer', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>	
+		<!-- end footer -->
+
+		<!-- srcipt -->
+		<?php echo $__env->make('fo.common.script', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+		<!-- end script -->
+	</body>
+</html>

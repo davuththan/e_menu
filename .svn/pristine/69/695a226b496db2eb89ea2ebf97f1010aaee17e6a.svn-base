@@ -1,0 +1,71 @@
+<footer>
+	<!-- <div class="footer">
+	© Copy ZAC Resource All Rights Reserved. Developed by : Y5Net
+	</div> -->
+	<div class="container">
+		<div class="col-lg-6 col-md-6">
+			<div class="footer footer-left">
+				© Copy ZAC Resource All Rights Reserved.
+			</div>
+		</div>
+		<div class="col-lg-6 col-md-6">
+			<div class="footer footer-right">
+				Developed by : Y5Net
+			</div>
+		</div>
+	</div>
+</footer>
+
+<style type="text/css">
+	footer{
+		background: #444;
+    	padding-top: 20px;
+    	padding-bottom: 15px;
+	}
+	.footer{
+		color: #fff;
+		font-size: 12px;
+	}	
+	.footer-left{
+		float: left;
+	}
+	.footer-right{
+		float: right;
+	}
+	@media (min-width: 360px) and (max-width: 640px){
+		footer{
+			background: #444;
+	    	padding-top: 20px;
+	    	padding-bottom: 15px;
+		}
+		.footer{
+			color: #fff;
+			font-size: 12px;
+			text-align: center;
+		}	
+		.footer-left{
+			padding-left: 10%;
+		}
+		.footer-right{
+			padding-right: 40%;
+		}
+	}
+	@media (min-width: 320px) and (max-width: 480px){
+		footer{
+			background: #444;
+	    	padding-top: 20px;
+	    	padding-bottom: 15px;
+		}
+		.footer{
+			color: #fff;
+			font-size: 12px;
+			text-align: center;
+		}	
+		.footer-left{
+			padding-left: 10%;
+		}
+		.footer-right{
+			padding-right: 40%;
+		}
+	}
+</style>

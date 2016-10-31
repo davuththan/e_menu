@@ -1,0 +1,33 @@
+.padding-top-lg-extra{padding-top: 60px;}
+.padding-top-lg{padding-top: 50px}
+.padding-top-md{padding-top: 40px;}
+.padding-top-sm{padding-top: 30px;}
+.padding-top{padding-top: 10px;}
+.padding-bottom-lg-extra{padding-bottom: 60px;}
+.padding-bottom-lg{padding-bottom: 50px;}
+.padding-bottom-md{padding-bottom: 40px;}
+.padding-bottom-sm{padding-bottom: 30px;}
+.padding-bottom{padding-bottom: 15px;}
+.font-size-lg-extra{font-size: 40px;}
+.font-size-lg{font-size: 36px;}
+.font-size-sm{font-size: 25px}
+.font-size-sm-extra{font-size: 18px}
+.font-size-sm-extra-small{font-size: 15px}
+
+.bold{font-weight: 900;}
+.text-left{float:left;}
+.text-right{float:right;}
+.padding-left-lg-extra{padding-left:50px;}
+.padding-left-lg{padding-left:40px;}
+.padding-left-md{padding-left:30px;}
+.padding-left-sm{padding-left:20px;}
+.padding-right-lg-extra{padding-right:50px;}
+.padding-right-lg{padding-right:40px;}
+.padding-righ-md{padding-right:30px;}
+.padding-right-sm{padding-right:20px;}
+.padding-lg-extra{padding:50px 50px}
+.padding-lg{padding:40px 40px}
+.padding-md{padding:30px 30px}
+.padding-sm{padding:20px 20px}
+.padding{padding:10px 10px;}
+.font-weight{font-weight: 700;}

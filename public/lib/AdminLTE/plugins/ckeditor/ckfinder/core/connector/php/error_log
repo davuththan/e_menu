@@ -1,0 +1,1 @@
+[28-Jan-2016 05:24:37 America/Chicago] PHP Warning:  mkdir(): File exists in /home1/bassaka/public_html/bassakaair_new/public/assets/backend/ckfinder/core/connector/php/vendor/cksource/ckfinder/src/CKSource/CKFinder/Backend/Adapter/Local.php on line 90

@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+/*Ajax photo*/
+.e-banner {
+	margin:-15px 20px 10px 20px;
+	border-bottom:1px dotted #c5c5c5;
+	padding:10px 0;
+	position:relative;
+}
+.get_banner {
+	border:1px solid #d8dfea;
+	padding:2px;
+	border-radius:3px;
+}
+.get_banner div {
+	position:relative;
+	background:#fff;
+	width:727px;
+	height:182px;
+	overflow:hidden;
+}
+.get_banner img {
+   	vertical-align:middle;
+   	display: block;
+   	margin: auto auto;
+}
+
+.e-logo img {
+	border:1px solid #d8dfea;
+	padding:2px;
+	border-radius:3px;
+}
+.e-banner a,
+.e-banner span {
+	position:absolute;
+	bottom:23px; right:13px;
+	display:none;
+}
+.e-banner:hover a {
+	text-decoration:none;
+	display:inline-block;
+	color:#666666;
+	font-weight:bold;
+	padding:3px 10px 4px 10px;
+	text-shadow:0px 1px 0px #ffffff;
+	border:1px solid rgba(0, 0, 0, 0.2);
+	box-shadow:0 1px 2px #eee;
+	background:#f7f8f9 url(../images/bg/fb_bg_bttn.png) 0 -99px no-repeat;
+    border-radius: 3px;
+}
+.e-banner span {
+	display:inline-block;
+	height:20px !important;
+	top:23px !important;
+	padding:3px 5px 4px 5px;
+	background:rgba(0,0,0,0.5);
+	color:#fff;
+	font-style:italic;
+}
+.file {
+    overflow: hidden;
+    position: relative;
+}
+.file [type=file] {
+    cursor: inherit;
+    display: block;
+    font-size: 999px;
+    filter: alpha(opacity=0);
+    min-height: 100%;
+    min-width: 100%;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 0;
+}
+
+.file1 {
+    overflow: hidden;
+    position: relative;
+}
+.file1 [type=file] {
+    cursor: inherit;
+    display: block;
+    font-size: 999px;
+    filter: alpha(opacity=0);
+    min-height: 100%;
+    min-width: 100%;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 0;
+}
+
+.e-logo {
+	/*position:absolute;*/
+	/*z-index:10;
+	right:10px;
+	top:15px;*/
+}
+.e-logo img {
+	max-width:300px;
+}
+.iconsite img{width:30px;}
+.e-logo a {
+	display:none;
+	position:absolute;
+	bottom:3px;
+	left:3px;
+	width:100px;
+	height:26px;
+	line-height:26px;
+	text-align:center;
+	background:rgba(0,0,0,0.6);
+	color:#fff;
+	text-decoration:none;
+	font-weight:bold;
+}
+.e-logo:hover a {
+	display:block;
+}

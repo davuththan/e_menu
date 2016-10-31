@@ -1,0 +1,79 @@
+<link rel="stylesheet" href="slide_show/css/touchTouch.css">
+<link rel="stylesheet" href="slide_show/css/owl.carousel.css">
+<link rel="stylesheet" href="slide_show/css/slideshow.css">
+<!-- <script src="slide_show/js/jquery.js"></script> -->
+<script src="slide_show/js/jquery.ui.totop.js"></script>
+<script src="slide_show/js/owl.carousel.js"></script>
+<script src="slide_show/js/touchTouch.jquery.js"></script>
+<script src="slide_show/js/modal.js"></script>
+
+<script>
+ $(window).load(function(){
+    $().UItoTop({ easingType: 'easeOutQuart' });
+
+    $("#owl").owlCarousel({
+      items : 4, //10 items above 1000px browser width
+      itemsDesktop : [995,1], //5 items between 1000px and 901px
+      itemsDesktopSmall : [767, 1], // betweem 900px and 601px
+      itemsTablet: [700, 1], //2 items between 600 and 0
+      itemsMobile : [479, 1], // itemsMobile disabled - inherit from itemsTablet option
+      navigation : true,
+      pagination :  false
+    });
+      $('.gallery .gall_item').touchTouch();
+   }); 
+</script>
+
+<!--=====================Content======================-->
+<div id="container" class="page page_bg__1">
+  <div class="container_12">
+    <div class="col-lg-12 ">
+
+      <div id="owl" class="gallery">
+
+        <div class="item">
+          <a href="slide_show/images/big2.jpg" class="gall_item">
+            <img src="slide_show/images/page1_img1.jpg" alt="">
+          </a>
+        </div>
+        <div class="item">
+          <a href="slide_show/images/big1.jpg" class="gall_item">
+            <img src="slide_show/images/page1_img2.jpg" alt="">
+          </a>
+        </div>
+        <div class="item">
+          <a href="slide_show/images/big3.jpg" class="gall_item">
+            <img src="slide_show/images/page1_img3.jpg" alt="">
+          </a>
+        </div>
+        <div class="item">
+          <a href="slide_show/images/big2.jpg" class="gall_item">
+            <img src="slide_show/images/page1_img1.jpg" alt="">
+          </a>
+        </div>
+        <div class="item">
+          <a href="slide_show/images/big2.jpg" class="gall_item">
+            <img src="slide_show/images/page1_img1.jpg" alt="">
+          </a>
+        </div>
+        <div class="item">
+          <a href="slide_show/images/big1.jpg" class="gall_item">
+            <img src="slide_show/images/page1_img2.jpg" alt="">
+          </a>
+        </div>
+        <div class="item">
+          <a href="slide_show/images/big3.jpg" class="gall_item">
+            <img src="slide_show/images/page1_img3.jpg" alt="">
+          </a>
+        </div>
+        <div class="item">
+          <a href="slide_show/images/big2.jpg" class="gall_item">
+            <img src="slide_show/images/page1_img1.jpg" alt="">
+          </a>
+        </div>  
+      </div>
+      
+    </div>
+  </div>
+</div>
+<!--==================End Content==================-->

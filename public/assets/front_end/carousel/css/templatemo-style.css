@@ -1,0 +1,240 @@
+
+/* ==========================================================================
+    Footer Site Styling
+   ========================================================================== */
+.site-footer {
+  color: white;
+  font-size: 13px;
+}
+.site-footer a {
+  color: white;
+}
+.site-footer a:hover {
+  color: #bfddf0;
+}
+.site-footer h3.widget-title {
+  font-weight: 600;
+  color: white;
+  margin: 0 0 30px 0;
+  font-size: 1.4em;
+}
+
+.footer-widget {
+  margin-bottom: 40px;
+}
+
+.our-partner {
+  /*background-color: #2a80b9;*/
+  padding: 15px;
+  position: relative;
+}
+.our-partner .item {
+  margin: 0 5px;
+  overflow: hidden;
+}
+.our-partner .item img {
+  width: 100%;
+}
+.our-partner .customNavigation .prev, .our-partner .customNavigation .next {
+  position: absolute;
+  top: 20%;
+  font-size: 24px;
+}
+.our-partner .customNavigation .prev {
+  /*left: -50px;*/
+  left: -15px;
+  z-index: 100;
+}
+.our-partner .customNavigation .next {
+  /*right: -50px;*/
+  right: -15px;
+  z-index: 100;
+}
+
+.main-footer {
+  background-color: #2d3e50;
+  padding: 50px 0 0 0;
+}
+.main-footer ul {
+  padding: 0;
+  margin: 0;
+  list-style: square;
+  list-style-position: inside;
+}
+.main-footer ul li a {
+  display: inline-block;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+ul.follow-us {
+  margin-top: 30px;
+}
+ul.follow-us li {
+  display: block;
+  margin-bottom: 10px;
+}
+ul.follow-us li a {
+  background-color: #2a80b9;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 10px 25px;
+  display: inline-block;
+  border: 1px solid white;
+}
+ul.follow-us li a i {
+  margin-right: 25px;
+}
+
+.newsletter {
+  padding: 20px;
+  background-color: #2a80b9;
+}
+.newsletter p {
+  margin: 0 0 20px 0;
+  font-size: 14px;
+  text-align: left;
+}
+.newsletter input {
+  -webkit-backface-visibility: hidden;
+  /* Chrome, Safari, Opera */
+  backface-visibility: hidden;
+  outline: 0;
+  border: 0;
+  height: 38px;
+  padding: 0 10px;
+  width: 64%;
+}
+.newsletter input[type=submit] {
+  width: auto;
+  background-color: #2d3e50;
+  color: white;
+  padding: 0 25px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0;
+}
+
+.bottom-footer {
+  background-color: #2d3e50;
+  border-top: 1px solid #3598db;
+  padding: 20px 0;
+  font-size: 12px;
+}
+.bottom-footer span {
+  display: block;
+  margin-bottom: 10px;
+}
+.bottom-footer p {
+  width: 70%;
+  margin: 0 auto;
+}
+
+/*------------------------------------------------------
+	RESPONSIVE STYLES 
+--------------------------------------------------------*/
+/*@media (max-width: 991px) {
+  ul.menu {
+    text-align: left;
+    background-color: #2d3e50 !important;
+    width: 100%;
+    height: auto !important;
+    background-color: red;
+    right: 60px !important;
+  }
+  ul.menu li {
+    float: none;
+    display: block !important;
+  }
+
+  .toggle-menu {
+    background-color: #2a80b9 !important;
+  }
+
+  .product-content .full-row {
+    margin-top: 20px;
+  }
+  .product-content select {
+    width: 100%;
+  }
+
+  .product-item-2, .product-item-4 {
+    width: 100%;
+  }
+  .product-item-2 .product-thumb, .product-item-4 .product-thumb {
+    height: auto;
+  }
+
+  .product-item-4 {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .top-header {
+    border-bottom: 0;
+  }
+
+  ul.menu {
+    min-width: 320px !important;
+  }
+
+  .top-header-left {
+    border-bottom: 1px solid #dddddd;
+  }
+
+  .social-icons {
+    width: 100%;
+    text-align: center;
+    float: none !important;
+    border-bottom: 1px solid #dddddd;
+  }
+  .social-icons ul {
+    text-align: center;
+  }
+
+  .main-nav .list-menu {
+    border-bottom: 1px solid #3598db;
+  }
+  .main-nav .notification {
+    padding: 20px 0;
+    text-align: left;
+  }
+
+  .product-content select {
+    width: 40%;
+  }
+
+  .product-item-2, .product-item-4 {
+    width: 100%;
+  }
+  .product-item-4 {
+    margin-bottom: 30px;
+  }
+  .product-item-4 .product-content p {
+    display: none;
+  }
+}
+@media (max-width: 581px) {
+  ul.menu {
+    min-width: 220px !important;
+  }
+
+  .main-nav .list-menu ul li {
+    padding: 20px 15px;
+  }
+  .main-nav .list-menu ul li a {
+    font-size: 14px;
+  }
+
+  .product-content select {
+    width: 100%;
+  }
+
+  .product-item-2 .product-content p {
+    display: none;
+  }
+}
+*/

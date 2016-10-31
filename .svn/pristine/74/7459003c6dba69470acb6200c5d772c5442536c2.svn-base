@@ -1,0 +1,18 @@
+<footer>
+	<div class="footer">
+	© Copy ZAC Resource. All Rights Reserved  <a href="#" style="color: #fff" target="_blank">Developed by : Y5Net</a>
+	</div>
+</footer>
+
+<style type="text/css">
+	footer{
+		background: #444;
+    	padding: 20px 0;
+	}
+	.footer{
+		text-align: center;
+		color: #fff;
+		font-size: 12px;
+		max-height: 50px;
+	}	
+</style>

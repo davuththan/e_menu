@@ -1,0 +1,99 @@
+<!-- <div class="slide-show">
+  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
+      <li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
+    </ol>
+   
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="{{url('images/b1.jpg')}}" alt="First slide">
+        <div class="carousel-caption">           
+              <h1 style="font-size: 50px;font-weight: bold;">WELCOME</h1>
+              <div class="container">
+                <p style="font-size:18px;">
+                  Zac Resource aims to become the leading contracing organization in Cambodia providing effcient local support and advertise in the feild of Civil & Structural Construction and Specialized labour, focusing on health. Safety, and enviromental.
+                </p>
+              </div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="{{url('images/b2.jpg')}}" alt="Second slide">
+        <div class="carousel-caption">           
+              <h1 style="font-size: 50px;font-weight: bold;">WELCOME</h1>
+              <div class="container">
+                <p style="font-size:18px;">
+                  Zac Resource aims to become the leading contracing organization in Cambodia providing effcient local support and advertise in the feild of Civil & Structural Construction and Specialized labour, focusing on health. Safety, and enviromental.
+                </p>
+              </div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="{{url('images/b3.jpg')}}" alt="Third slide">
+        <div class="carousel-caption">           
+              <h1 style="font-size: 50px;font-weight: bold;">WELCOME</h1>
+              <div class="container">
+                <p style="font-size:18px;">
+                  Zac Resource aims to become the leading contracing organization in Cambodia providing effcient local support and advertise in the feild of Civil & Structural Construction and Specialized labour, focusing on health. Safety, and enviromental.
+                </p>
+              </div>
+        </div>
+      </div>
+    </div>
+
+
+    <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+      <span class="fa fa-angle-left"></span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+      <span class="fa fa-angle-right"></span>
+    </a>
+  </div>
+</div> -->
+
+
+    <!-- CSS
+  ================================================== -->
+    
+
+
+
+<div class="slider wow fadeInDown animated delay">
+  <!-- Slideshow -->
+  <div class="callbacks_container" >
+    <ul class="rslides" id="slider">
+      <li>
+        <img src="slide_update/images/slideshow-image1.jpg" alt="">
+        <div class="caption">
+          <h1>Welcome</h1>
+          <div class="container">
+            <span > Civil Construction works. Civil & Structural services are the core competency of ZAC Resources Co.,Ltd. Over the years, our personal have grown from strength th strength and built extensive capabilities for all types of industrial civil and structural requirements. We specialize in Earth Moving, Concrete Works, Steel Structures and Major Civil Construction works. </span>
+            
+          </div>
+        </div>
+      </li>
+      <li>
+        <img src="slide_update/images/slideshow-image2.jpg" alt="">
+        <div class="caption">
+          <h1>Welcome</h1>
+          <div class="container">
+            <span > Civil Construction works. Civil & Structural services are the core competency of ZAC Resources Co.,Ltd. Over the years, our personal have grown from strength th strength and built extensive capabilities for all types of industrial civil and structural requirements. We specialize in Earth Moving, Concrete Works, Steel Structures and Major Civil Construction works. </span>
+            
+          </div>
+        </div>
+      </li>
+      <li>
+        <img src="slide_update/images/slideshow-image3.jpg" alt="">
+        <div class="caption">
+          <h1>Welcome</h1>
+           <div class="container">
+            <span > Civil Construction works. Civil & Structural services are the core competency of ZAC Resources Co.,Ltd. Over the years, our personal have grown from strength th strength and built extensive capabilities for all types of industrial civil and structural requirements. We specialize in Earth Moving, Concrete Works, Steel Structures and Major Civil Construction works. </span>
+            
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="clear"></div>
+</div>

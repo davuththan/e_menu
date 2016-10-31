@@ -1,0 +1,123 @@
+@extends('fo.common.layout') 
+
+@section('content')
+	<div class="wrapper_our_service">
+		<div class="col-sm-12 text-center padding-bottom-sm padding-top-sm">
+			<h1 class="title_our_service">CONTACT</h1>
+		</div>
+
+		<div class="container our_service col-sm-12 padding-bottom-lg">	
+			<div class="container">
+				<div class="col-lg-12">
+				<div class="line-row">
+					<div class="hr">&nbsp;</div>
+				</div>
+					
+				</div>
+				<br>	
+				<div class="col-lg-12">
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="font-size-sm bold">GET INTOUCH</div><br>
+						</div>
+						<div class="col-sm-12">
+							<p class="paragraph">
+								And get the lastest information about our company news and offers
+							</p>
+						</div>
+						<!-- ==============Contact============= -->
+				      	<div class="col-lg-6 col-md-6 2 form">
+						      <!--FORM -->
+						      <form action="./contact.php" class="form-horizontal" role="form" id="contactForm" method="post" name="contactForm">
+						            
+						            <div class="form-group">
+						               
+						                <div class="col-sm-12">
+						                <div class="font-size-sm">Name</div>
+						                <input class="form-control  input-md" name="name" id="name" type="text">
+						                </div>
+						            </div>
+						            
+						            <div class="form-group">
+						                  
+						                    <div class="col-sm-12">
+						                    <div class="font-size-sm">E-mail</div>
+						                      <input class="form-control contact input-md" name="email" id="email" type="email">
+						                  </div>
+						            </div>
+						              <div class="form-group">
+
+						              		<div class="col-sm-12">
+						              		  <div class="font-size-sm">Message</div>
+						                      <textarea class="form-control input-md" rows="10" name="message" id="message"></textarea>
+						                  </div>
+						            </div>
+						            
+						            <div class="control-group submit center">
+						               <input class="btn btn-lg btn-primary" value="SUBMIT YOUR MESSAGE >>" type="submit">
+						            </div>
+
+						          </form>
+						           
+						           <p class="d-grey requi">* Required</p>
+					    </div>
+						<!--===================Contact address================== -->
+					    <div class="col-lg-6 col-md-6">
+						        <div class="bottom-con padding-sm col-md-offset-2">
+						            <div class="">
+						             <p>
+						             	<address>
+						             	<i class="fa fa-home" style="font-size:25px;font-weight: 900;"></i>
+						    	
+						             
+						             	<span>&nbsp;&nbsp;</span>
+						             	<span>
+							             	Street 1986, Sangkat Phnom Penh Thmei,Khan Sen Sok, Phnom Penh, Cambodia.Street 1986, Sangkat Phnom Penh Thmei,Khan Sen Sok, Phnom Penh, Cambodia.
+						             	</span>
+						             	</address>
+						             </p>
+						             <p>
+						             	<i class="fa fa-phone" style="font-size:18px;font-weight: 900;"></i>
+						             	<span>&nbsp;&nbsp;</span>
+						             	<span>Telephone:</span>
+						             	<span>097 333 2003</span>/
+						             	<span>097 333 2003</span>/
+						             	<span>097 333 2003</span>
+						             </p>
+						             <p>
+						             	<i class="fa fa-envelope" style="font-size:18px;font-weight: 900;"></i>
+						             	<span>&nbsp;&nbsp;</span>
+						             	<span>E-mail:</span>
+						             	<span>zac@gmail.com</span>
+						             </p>
+						           </div> 
+						        </div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		@include('fo.common.map')
+	</div>
+@endsection
+<style type="text/css">
+	.form-control .contact{
+ 		display:block;
+ 		width:100%;
+ 		height:34px;
+ 		padding:6px 12px;
+ 		font-size:14px;
+ 		line-height:1.42857143;
+ 		color:#555;
+ 		background-color:red;
+ 		background-image:none;
+ 		border:1px solid #ccc;
+ 		border-radius:4px;
+ 		-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075);
+ 		box-shadow:inset 0 1px 1px rgba(0,0,0,.075);
+ 		-webkit-transition:border-color ease-in-out .15s,
+ 		-webkit-box-shadow ease-in-out .15s;-o-transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s}
+</style>

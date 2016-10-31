@@ -1,0 +1,59 @@
+<!-- Bootstrap 3.3.5 -->
+<link rel="stylesheet" href="{{url('lib/AdminLTE/bootstrap/css/bootstrap.min.css')}}">
+<!-- Font Awesome -->
+<link rel="stylesheet" href="{{url('lib/plugins/css/font-awesome.min.css')}}">
+<!-- Ionicons -->
+<!-- <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"> -->
+<!-- Theme style -->
+<link rel="stylesheet" href="{{url('lib/AdminLTE/dist/css/AdminLTE.min.css')}}">
+<!-- AdminLTE Skins. Choose a skin from the css/skins
+         folder instead of downloading all of them to reduce the load. -->
+<link rel="stylesheet" href="{{url('lib/AdminLTE/dist/css/skins/_all-skins.min.css')}}">
+<!-- iCheck -->
+<link rel="stylesheet" href="{{url('lib/AdminLTE/plugins/iCheck/flat/blue.css')}}">
+<!-- Morris chart -->
+<link rel="stylesheet" href="{{url('lib/AdminLTE/plugins/morris/morris.css')}}">
+
+<link rel="stylesheet" href="{{url('lib/AdminLTE/plugins/jvectormap/jquery-jvectormap-1.2.2.css')}}">
+<!-- Date Picker -->
+<link rel="stylesheet" href="{{url('lib/AdminLTE/plugins/datepicker/datepicker3.css')}}">
+<!-- Daterange picker -->
+<link rel="stylesheet" href="{{url('lib/AdminLTE/plugins/daterangepicker/daterangepicker-bs3.css')}}">
+<!-- bootstrap wysihtml5 - text editor -->
+<link rel="stylesheet" href="{{url('lib/AdminLTE/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css')}}">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="{{url('lib/plugins/js/html5shiv.min.js')}}"></script>
+        <script src="{{url('lib/plugins/js/respond.min.js')}}"></script>
+    <![endif]-->
+<link rel="stylesheet" href="{{url('css/custome.css')}}">
+<link rel="stylesheet" href="{{url('css/style.css')}}">
+<!--=================== Anamation Effect===================== -->
+<link rel="stylesheet" href="{{url('css/animate.min.css')}}">
+
+<!--=================== script Slide SHow ========================-->
+<link rel="stylesheet" href="{{url('lib/slide_update/css/menu_update.css')}}">
+
+<!-- Event and news-->
+<!-- Bootstrap Core CSS -->
+<!-- <link rel="stylesheet" href="assets/css/bootstrap.css" rel="stylesheet"> -->
+<!-- Template CSS -->
+<link rel="stylesheet" href="assets/css/nexus.css" rel="stylesheet">
+<!-- <link rel="stylesheet" href="assets/css/custom.css" rel="stylesheet"> -->
+
+<!--============================ project detail======================== -->
+
+<!-- <link rel="stylesheet" href="lib/carousel/css/bootstrap.css"> -->
+<!-- <link rel="stylesheet" href="lib/carousel/css/normalize.min.css"> -->
+<!-- <link rel="stylesheet" href="lib/carousel/css/font-awesome.min.css"> -->
+<!-- <link rel="stylesheet" href="lib/carousel/css/animate.css"> -->
+<link rel="stylesheet" href="lib/carousel/css/templatemo-misc.css">
+<link rel="stylesheet" href="lib/carousel/css/templatemo-style.css">
+<!-- <script src="lib/carousel/js/vendor/modernizr-2.6.2.min.js"></script> -->
+
+<!-- ==============gallery================== -->
+<!-- <link href="lib/gallery/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="lib/gallery/css/galleryeffect.css" rel="stylesheet" type="text/css" media="all" />
+<link href="lib/gallery/css/style.css" rel="stylesheet" type="text/css" media="all" />
+ -->

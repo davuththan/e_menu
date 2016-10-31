@@ -1,0 +1,30 @@
+<!--<div class="menu">
+	<ul class="list-inline">
+		<li><a href="{{url('/')}}">HOME</a></li>
+		<li><a href="{{url('service')}}">SERVICE</a></li>
+		<li><a href="{{url('project_progress')}}">PROJECT</a></li>
+		<li><a href="{{url('project_detail')}}">ACTIVITY</a></li>
+		<li><a href="{{url('event_news')}}">EVENT & NEWS</a></li>
+		<li><a href="{{url('gallery')}}">GALLERY</a></li>
+		<li><a href="{{url('about')}}">ABOUT US</a></li>
+	</ul>
+</div><! /menu -->
+
+
+<header class="">
+  		<div class="col-lg-12">
+		    <div id="cssmenu">
+		        <ul>
+		            <li class='active'><a href="{{url('/')}}">HOME</a></li>
+		          	<li><a href="{{url('service')}}">SERVICE</a></li>
+					<li><a href="{{url('project_progress')}}">PROJECT</a></li>
+					<li><a href="{{url('project_detail')}}">ACTIVITY</a></li>
+					<li><a href="{{url('event_news')}}">EVENT & NEWS</a></li>
+					<li><a href="{{url('gallery')}}">GALLERY</a></li>
+					<li><a href="{{url('about')}}">ABOUT US</a></li>
+
+					<!-- <a href='index.html' class="logo"><img src="images/logo.png" /></a> -->
+		        </ul>
+		    </div>
+	  </div>
+</header>

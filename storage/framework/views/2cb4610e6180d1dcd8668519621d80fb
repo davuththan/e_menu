@@ -1,0 +1,109 @@
+ 
+
+<?php $__env->startSection('content'); ?>
+
+<div class="box box-info">
+	<?php echo $__env->make('common.error', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+	 <!-- form start -->
+	<?php if( isset($entity) ): ?>
+		<?php echo Form::model($entity,['method' => 'PATCH','id'=>'form','class'=>'form-horizontal','files'=>true,'route'=>['admin.cmgr.project.update',$entity->id]]); ?>
+
+  	<?php else: ?>
+  		<?php echo Form::open(['url' => 'admin/cmgr/project','id'=>'form','class'=>'form-horizontal','files'=>true]); ?>
+
+  	<?php endif; ?>
+  <div class="box-header with-border">
+   <button type="submit"  class="btn btn-info pull-left" validation-submit="Form">Save</button> &nbsp;
+    <a href="<?php echo e(url('admin/cmgr/project')); ?>" class="btn btn-default">List</a>
+    <a href="<?php echo e(url('admin/cmgr/project')); ?>" class="btn btn-default pull-right">Back</a>
+  </div><!-- /.box-header -->
+    <div class="box-body">
+      <div class="col-sm-9">
+	      	<div class="form-group">
+	        	<label class="col-sm-4 control-label">Image</label>
+		        <div class="col-sm-8">
+		          <div class="input-group">
+			          <span class="input-group-addon" id="show_image"><i class="fa fa-upload"></i></span>
+			          <?php if( isset($entity) ): ?>
+			          	<?php echo Form::text('image_url',$entity->image,['class'=>'form-control','id'=>'image_url','readonly'=>'readonly']); ?>
+
+			          <?php else: ?>
+			          	<?php echo Form::text('image_url',null,['class'=>'form-control','id'=>'image_url','readonly'=>'readonly']); ?>
+
+			          <?php endif; ?>
+			          <?php echo Form::file('image',['class'=>'hidden','id'=>'image']); ?>
+
+			      </div>
+	        	</div>
+	      	</div>
+	      <div class="form-group">
+	        <label class="col-sm-4 control-label">Project Start <span class="text-danger">*</span></label>
+	        <div class="col-sm-8">
+	          <?php echo Form::text('project_start',null,['class'=>'form-control datepicker']); ?>
+
+	        </div>
+	      </div>
+	      <div class="form-group">
+	        <label class="col-sm-4 control-label">Project End</label>
+	        <div class="col-sm-8">
+	          <?php echo Form::text('project_end',null,['class'=>'form-control datepicker']); ?>
+
+	        </div>
+	      </div>
+      </div>
+      <div class="col-sm-2">
+      	<?php if( isset($entity) ): ?>
+      		<img id="image_preview" class="img-responsive" alt="image-preview" src="<?php echo e(url('images/upload')); ?>/<?php echo e($entity->image); ?>">
+      	<?php else: ?>
+      		<img id="image_preview" class="img-responsive" alt="image-preview" src="<?php echo e(url('images/c1.png')); ?>">
+      	<?php endif; ?>
+      </div>
+      <div class="col-sm-12">
+      	<?php echo $__env->make('bo.project.tab', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+      </div>
+      
+      
+      
+    </div><!-- /.box-body -->
+    <div class="box-footer">
+    </div><!-- /.box-footer -->
+  <?php echo Form::close(); ?>
+
+</div><!-- /.box -->
+  <script>
+  $( function() {
+    $( ".datepicker" ).datepicker();
+  } );
+  </script>
+<script type="text/javascript">
+<!--
+	
+//-->
+	$(function(){
+		
+		$("#show_image").click(function(){
+			$("#image").change(function(event){
+				var fileName = $(this).val().split('\\').pop();
+				$("#image_url").val(fileName);
+				image_preview.src = URL.createObjectURL(event.target.files[0]);
+			});
+			$("#image").click();
+		});
+
+		$("#form").validate(
+				{ ignore: [] ,//validate all tab
+					invalidHandler: function(form, validator){
+			            var errors = validator.numberOfInvalids();
+			            var message = (errors == 1) ? "There is 1 error." : "There are errors.";
+			            $("#errors").html(message).show();
+			        }
+				} 
+		);
+		
+	});
+</script>
+
+ 
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('bo.common.layout', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

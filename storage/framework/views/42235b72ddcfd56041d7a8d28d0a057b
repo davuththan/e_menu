@@ -1,0 +1,40 @@
+ 
+
+<?php $__env->startSection('content'); ?>
+<div class="col-sm-12 text-center">
+	<h1>OUR SERVICE</h1>
+</div>
+<div class="col-sm-12">
+	<div class="col-sm-4 text-center">
+		<div class="col-sm-4 col-sm-offset-4">
+			<img class="img-responsive" src="<?php echo e(url('images/c1.png')); ?>"
+				alt="service">
+		</div>
+		<div class="col-sm-12">
+			<h3>CIVIL & STRUCTURAL</h3>
+		</div>
+	</div>
+
+	<div class="col-sm-4 text-center">
+		<div class="col-sm-4 col-sm-offset-4">
+			<img class="img-responsive" src="<?php echo e(url('images/c2.png')); ?>"
+				alt="service">
+		</div>
+		<div class="col-sm-12">
+			<h3>SPECIALIZED LABOR</h3>
+		</div>
+	</div>
+
+	<div class="col-sm-4 text-center">
+		<div class="col-sm-4 col-sm-offset-4">
+			<img class="img-responsive" src="<?php echo e(url('images/c3.png')); ?>"
+				alt="service">
+		</div>
+		<div class="col-sm-12">
+			<h3>ELECTRICAL & COMMUNICATION</h3>
+		</div>
+	</div>
+</div>
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('bo.common.layout', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

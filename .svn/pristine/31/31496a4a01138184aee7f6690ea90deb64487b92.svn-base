@@ -1,0 +1,80 @@
+@extends('fo.common.layout') 
+
+@section('content')
+	<div class="wrapper_our_service">
+
+		<div class="col-sm-12 text-center padding-bottom-sm padding-top-sm wow fadeInUp animated delay">
+			<h1 class="title_our_service">KPS SERVICE</h1>
+		</div>
+		<div class="clear"></div>
+		<div class="container">
+			<div class="our_service col-lg-12 padding-bottom-lg wow fadeInUp animated delay">
+				<div class="row">
+						<div class="col-lg-12 ">
+							<p class="paragraph">
+								Civil & Structural services are the core competency of ZAC Resources Co.,Ltd. Over the years, our personal have grown from strength th strength and built extensive capabilities for all types of industrial civil and structural requirements. We specialize in Earth Moving, Concrete Works, Steel Structures and Major Civil Construction works.
+							</p>
+							<br>
+						</div>
+				</div>
+
+				<div class="col-sm-12">
+						<div class="row padding-bottom">
+							<div class="col-sm-2">
+								<div class="paragraph font-weight">Facility:</div>
+							</div>
+							<div class="col-sm-9">
+								<div class="">Entertainment Complex</div>
+							</div>
+						</div>
+						<div class="row padding-bottom">
+							<div class="col-sm-2">
+								<div class="paragraph font-weight">Area:</div>
+							</div>
+							<div class="col-sm-9">
+								<div class="">20,000 sqm</div>
+							</div>
+						</div>
+						<div class="row padding-bottom">
+							<div class="col-sm-2">
+								<div class="paragraph font-weight">Start Date:</div>
+							</div>
+							<div class="col-sm-9">
+								<div class="">05/06/2015</div>
+							</div>
+						</div>
+						<div class="row padding-bottom">
+							<div class="col-sm-2">
+								<div class="paragraph font-weight">Completed Date:</div>
+							</div>
+							<div class="col-sm-9">
+								<div class="">05/06/2015</div>
+							</div>
+						</div>
+						<div class="row padding-bottom">
+							<div class="col-sm-2">
+								<div class="paragraph font-weight">Location:</div>
+							</div>
+							<div class="col-sm-9">
+								<div class="">26 Street 1986, Sangkat, Phnom Penh Thmei, Khan Sen Sok, Phnom Penh, Camobodia.</div>
+							</div>
+						</div>
+				</div>	
+			</div>
+				
+		</div>
+		
+		<div class="col-sm-12 text-center padding-lg">
+			<h2 class="title_our_Progress">OTHER PROGRESS</h2>
+		</div>
+		<div class="container-fluid">
+			<!--include('fo.common.slide_carousel') -->
+			@include('fo.common.carousel')
+		</div>
+	</div>
+@endsection
+<style type="text/css">
+	.title_our_Progress{
+		font-size: 35px;
+	}
+</style>
