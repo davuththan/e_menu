@@ -1,0 +1,20 @@
+RewriteEngine On
+#RewriteBase /http://springpalace.asia/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]
+
+
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://awa-cambodia.com/$1 [R=301,L]
+
+ErrorDocument 404 http://www.awa-cambodia.com/
+IndexIgnore *.zip *.jpg *.gif *.css *.js *.png *.JPG *.PNG *.GIF
+Options -Indexes
+
+
+#RewriteCond %{HTTP_REFERER} !^$
+#RewriteCond %{HTTP_REFERER} !^http://(www\.)?awa-cambodia\.com [NC]
+#RewriteCond %{HTTP_REFERER} !^http://(www\.)?awa-cambodia\.com [NC]
+#RewriteRule \.(gif|jpe!JPG|PNG|png|JPEG|GIF?g|js|css)$ - [F,NC,L]
