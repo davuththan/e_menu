@@ -98,7 +98,7 @@
 		    				@foreach($product_categories as $product_category)
 			    				<div class="row" style="margin-top:20px;margin-left:15px;">
 				    				<div class="col-sm-12">
-				    					<ul class="ul-cat-list">
+				    					<ul class="scroller" style="height: 300px;" data-always-visible="1" data-rail-visible="0">
 				    						<li><a onclick="initCat({{$product_category->id}});" href="javascript:void(0);">
 				    						@if($product_category->icon!='')
 				    							<img width="30px" src="{{url('images/upload/icon')}}/$product_category->icon">

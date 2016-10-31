@@ -1,0 +1,107 @@
+@import '../css/grid.css';
+#stuck_container {
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  z-index: 998 !important;
+  padding-bottom: 7px;
+}
+#stuck_container .isStuck {
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+sition: 0.4s ease;
+}
+@media only screen and (min-width: 979px) {
+  .isStuck {
+    background-color: #000;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+  }
+}
+@media only screen and (max-width: 979px) {
+  #stuck_container {
+    position: relative !important;
+    box-shadow: none;
+  }
+  .pseudoStickyBlock {
+    height: 0 !important;
+  }
+}
+
+
+
+.navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 40px 0 0;
+  margin-bottom: 177px;
+  text-align: center;
+}
+.navigation li {
+  display: inline-block;
+  font: 24px/36px 'Droid Sans', sans-serif;
+}
+.navigation li + li {
+  margin-left: 87px;
+}
+.navigation li:first-child + li + li {
+  margin-left: 265px;
+}
+.navigation li a {
+  position: relative;
+}
+.navigation li a:after {
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  position: absolute;
+  height: 1px;
+  top: 100%;
+  margin-top: 7px;
+  content: '';
+  left: 50%;
+  margin-left: -42px;
+  background-color: #ffffff;
+  opacity: .53;
+  width: 0;
+}
+.navigation li a:hover,
+.navigation li a.current {
+  color: inherit;
+}
+.navigation li a:hover:after,
+.navigation li a.current:after {
+  width: 84px;
+}
+/****Content****/
+/****Non suppage set****/
+.page {
+  padding-bottom: 73px;
+}
+.page.page_bg__1 {
+  /*background-color: #eae3df;*/
+}
+
+
+
+/****Gallery****/
+.gall_item {
+  display: block;
+  background: #333333 url(../images/magnifyer.png) center center no-repeat;
+}
+.gall_item img {
+  box-shadow: 0 0 0 #fff;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+.gall_item:hover img {
+  opacity: 0.2;
+}
+/****Separators****/
+
