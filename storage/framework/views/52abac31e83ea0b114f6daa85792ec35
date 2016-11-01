@@ -98,10 +98,11 @@
 		    				<?php foreach($product_categories as $product_category): ?>
 			    				<div class="row" style="margin-top:20px;margin-left:15px;">
 				    				<div class="col-sm-12">
-				    					<ul class="scroller" style="height: 300px;" data-always-visible="1" data-rail-visible="0">
+				    					<ul class="ul-cat-list " >
 				    						<li><a onclick="initCat(<?php echo e($product_category->id); ?>);" href="javascript:void(0);">
 				    						<?php if($product_category->icon!=''): ?>
-				    							<img width="30px" src="<?php echo e(url('images/upload/icon')); ?>/$product_category->icon">
+				    							<img width="30px" src="<?php echo e(url('images/upload/icon')); ?>/<?php echo e($product_category->icon); ?>">
+
 				    						<?php else: ?>
 				    							<i class="fa fa-wa fa-chevron-right"></i>
 				    						<?php endif; ?>
@@ -454,7 +455,7 @@
 	          		// html +='<a onclick="initSubPopup('+data_value['id']+',\''+data_value['name_en']+'\',\''+data_value['name_kh']+'\',\''+data_value['description']+'\',\''+data_value['price']+'\');" href="javascript:void(0);">';
 	          		html +='<a onclick="initSubPopup('+data_value['id']+',\''+data_value['name_en']+'\',\''+data_value['name_kh']+'\',\''+data_value['description']+'\',\''+data_value['price']+'\');" href="javascript:void(0);">';
 
-		    					html +='<div class="col-lg-4 col-sm-6 col-xs-6 col-md-4" style="padding-bottom:20px;">';
+		    					html +='<div  class="col-lg-4 col-sm-6 col-xs-6 col-md-4" style="padding-bottom:20px;">';
 					    			html +='<div style="position: relative;">';
 						    				html +='<img width="100%" style="max-height:171px" class="-img-responsive" src="<?php echo e(url("images/upload/product")); ?>/'+data_value['photo']+'">';
 						    				html +='<div class="bg_img" style="color:#f2e191;">';
